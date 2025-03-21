@@ -47,11 +47,11 @@ export default function Header() {
 
         <div className="hidden md:flex items-center gap-[32px]">
           <motion.a href="#" aria-label="Twitter" variants={scaleUp} whileHover={{ scale: 1.1 }}>
-            <Image src="/images/twitter.png" alt="Twitter" width={24} height={24} />
+            <Image src="/images/twitter.svg" alt="Twitter" width={24} height={24} />
           </motion.a>
           <motion.a href="#" aria-label="Facebook" variants={scaleUp} whileHover={{ scale: 1.1 }}>
             <div className="w-[32px] h-[32px] flex items-center justify-center border-[1px] border-[#D0D0D0] rounded-full">
-              <Image src="/images/facebook.png" alt="Facebook" width={12.46} height={24} />
+              <Image src="/images/facebook.svg" alt="Facebook" width={12.46} height={24} />
             </div>
           </motion.a>
           <motion.a href="#" aria-label="Instagram" variants={scaleUp} whileHover={{ scale: 1.1 }}>
@@ -75,11 +75,11 @@ export default function Header() {
           >
             <div className="flex flex-col items-center gap-4 p-4">
               <a href="#" aria-label="Twitter">
-                <Image src="/twitter.png" alt="Twitter" width={24} height={24} />
+                <Image src="/images/twitter.svg" alt="Twitter" width={24} height={24} />
               </a>
               <a href="#" aria-label="Facebook">
                 <div className="w-[32px] h-[32px] flex items-center justify-center border-[1px] border-[#D0D0D0] rounded-full">
-                  <Image src="/facebook.png" alt="Facebook" width={12.46} height={24} />
+                  <Image src="/images/facebook.svg" alt="Facebook" width={12.46} height={24} />
                 </div>
               </a>
               <a href="#" aria-label="Instagram">
