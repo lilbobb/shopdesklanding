@@ -82,7 +82,6 @@ export default function Landing() {
     }
   };
 
-  // Animation variants
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
@@ -109,7 +108,7 @@ export default function Landing() {
 
       <div className="w-full max-w-[1440px] mx-auto p-4 m-0">
         <motion.div
-          className="w-full md:w-[867px] h-auto md:h-[299px] md:mt-[80px] mx-auto flex flex-col items-center justify-center text-center gap-[24px] px-4 mt-[32px]"
+          className="w-full md:w-[867px] h-auto md:h-[299px] mx-auto flex flex-col items-center justify-center text-center gap-[24px] px-4 mt-[80px]"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -119,11 +118,11 @@ export default function Landing() {
             <h2 className="text-[32px] md:text-[60px] font-bold text-[#009A49] leading-none">
               E-commerce Entrepreneurs
             </h2>
-            <p className="mt-2 text-[#171717] text-[24px] md:text-[40px] font-bold leading-none">
+            <p className="mt-2 p-4 text-[#171717] text-[24px] md:text-[40px] font-bold leading-none">
               Take Control of Your Stock — Manage <br /> Inventory in One Click
             </p>
           </motion.span>
-          <motion.p className="text-[#5F5F5F] text-[16px] md:text-[24px]" variants={fadeIn}>
+          <motion.p className="text-[#5F5F5F] mb-4 text-[16px] md:text-[24px]" variants={fadeIn}>
             Managing inventory and tracking stock records doesn’t have to be difficult. Shopdesk gives e-commerce
             entrepreneurs a simple yet powerful inventory management tool to track, update, and organize stock records
             with ease.
